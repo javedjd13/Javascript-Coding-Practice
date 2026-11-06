@@ -1,45 +1,28 @@
-diff --git a/E:\Code Practice\README.md b/E:\Code Practice\README.md
-deleted file mode 100644
---- a/E:\Code Practice\README.md
-+++ /dev/null
-@@ -1,40 +0,0 @@
--# Code Practice
--
--My coding practice repository for learning programming fundamentals and solving problems one submission at a time.
--
--## Repository structure
--
--Practice files are organized by topic folder, then problem or lesson folder. Each attempt is saved as a separate file so I can track my progress.
--
--```text
--<topic-folder>/
--  <problem-or-lesson>/
--    submission-0.<ext>  # first submission
--    submission-1.<ext>  # next submission
--```
--
--### Current files
--
--```text
--Javascript/
--  01-fundamentals/
--    submission-0.js
--```
--
--The top-level folders currently present are:
--
--- `Javascript/` — currently contains `01-fundamentals/submission-0.js`
--
--## Running JavaScript practice
--
--From the repository root, run a JavaScript file with Node.js. For example:
--
--```bash
--node "Javascript/01-fundamentals/submission-0.js"
--```
--
--On Git Bash, paths use forward slashes. From inside the lesson folder, you can also run:
--
--```bash
--node submission-0.js
--```
+# JavaScript Coding Practice
+
+Practice repository for learning JavaScript fundamentals and solving coding problems.
+
+## Repository structure
+
+JavaScript solutions are organized by problem or lesson. Each attempt is saved as a separate file.
+
+```text
+Javascript/
+  <problem-or-lesson>/
+    submission-0.js
+    submission-1.js
+```
+
+## Current solution
+
+```text
+Javascript/two-integer-sum/submission-0.js
+```
+
+## Run the solution
+
+From the repository root, run:
+
+```bash
+node "Javascript/two-integer-sum/submission-0.js"
+```
